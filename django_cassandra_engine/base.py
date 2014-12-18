@@ -1,6 +1,6 @@
 from itertools import chain
 
-from django.db.backends import connection_created
+from django.db.backends.signals import connection_created
 from djangotoolbox.db.base import (
     NonrelDatabaseClient,
     NonrelDatabaseFeatures,
